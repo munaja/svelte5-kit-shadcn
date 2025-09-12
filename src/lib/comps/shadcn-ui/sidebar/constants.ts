@@ -1,0 +1,9 @@
+export const SIDEBAR_COOKIE_NAME = "sidebar:state";
+export const SIDEBAR_COOKIE_MAX_AGE = 60 * 60 * 24 * 7;
+export const SIDEBAR_WIDTH = "12rem";
+export const MD_SIDEBAR_WIDTH = "10rem";
+export const XL_SIDEBAR_WIDTH = "12rem";
+export const XXL_SIDEBAR_WIDTH = "14rem"; 
+export const SIDEBAR_WIDTH_MOBILE = "18rem";
+export const SIDEBAR_ICON_WIDTH = "3rem";
+export const SIDEBAR_KEYBOARD_SHORTCUT = "b";
