@@ -116,7 +116,7 @@
 		@apply border-border outline-ring/50;
 	}
 	body {
-		@apply bg-background text-foreground text-xs xl:text-sm 2xl:text-base;
+		@apply text-foreground text-xs xl:text-sm 2xl:text-base;
 	}
 	body {
 		font-family: Quicksand, sans-serif;

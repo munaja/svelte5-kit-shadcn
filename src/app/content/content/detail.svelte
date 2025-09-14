@@ -17,10 +17,10 @@
 	}
 </script>
 
-<div class="mb-4 xl:mb-5 font-semibold text-lg xl:text-xl">
+<div class="xl:mb-5 font-semibold text-lg xl:text-xl">
 	Without Nav, Manual Header
 </div>
-<Separator class="my-5" />
+<Separator class="my-4 xl:my-5" />
 <Detail />
-<Separator class="my-5" />
+<Separator class="my-4 xl:my-5" />
 <ContentNav onBack={back} onEdit={edit} />

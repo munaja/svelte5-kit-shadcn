@@ -3,6 +3,7 @@ import Cell from './cell.svelte';
 import Attribute from './attribute.svelte';
 import Label from './label.svelte';
 import Field from './field.svelte';
+import LineBreaker from './line-breaker.svelte';
 
 export {
 	Block as Root,
@@ -11,4 +12,5 @@ export {
 	Attribute,
 	Label,
 	Field,
+	LineBreaker,
 }

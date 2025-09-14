@@ -1,9 +1,11 @@
 <script lang="ts">
+	// ---------- Imports ----------
 	import * as DE from "@/comps/custom-ui/doc-entry";
 	import * as Select from "@/comps/custom-ui/select";
 	import * as ComboBox from "@/comps/custom-ui/combobox";
 	import * as Textarea from "lib/comps/shadcn-ui/textarea";
 
+	// ---------- Declaration and Logics ----------
 	let select1Val = $state('');
 	let select1Item: Select.Item | undefined = $state();
 

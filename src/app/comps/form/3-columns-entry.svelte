@@ -1,4 +1,5 @@
 <script lang="ts">
+	// ---------- Imports ----------
 	import * as DE from "@/comps/custom-ui/doc-entry";
 	import * as Input from "lib/comps/shadcn-ui/input";
 	import * as Textarea from "lib/comps/shadcn-ui/textarea";

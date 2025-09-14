@@ -57,7 +57,7 @@
 	<AppSidebar data={genProjectSidebarItems()} /> 
 	<Sidebar.Inset>
 		<header
-			class="bg-slate-100 dark:bg-slate-800 group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear px-4 xl:px-5"
+			class="bg-slate-50 dark:bg-slate-900 group-has-data-[collapsible=icon]/sidebar-wrapper:h-12 flex h-16 shrink-0 items-center gap-2 transition-[width,height] ease-linear px-4 xl:px-5"
 		>
 			<Sidebar.Trigger class="-ml-1" />
 			<Separator orientation="vertical" class="mr-2 data-[orientation=vertical]:h-4" />

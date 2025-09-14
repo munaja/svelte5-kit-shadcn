@@ -18,7 +18,7 @@
 	let {
 		value = $bindable([]),
 		references = $bindable([]),
-		wrapperDefaultClass = 'pt-2 pb-2 [&_label]:block [&_label]:flex [&_label]:me-5 [&_label:not(:last-child)]:mb-2 [&_button]:xl:size-5',
+		wrapperDefaultClass = 'pt-1.5 2xl:pt-1 pb-2 gap-4 xl:gap-5 [&_label]:block [&_label]:flex [&_button]:size-5 [&_button]:xl:size-6 [&_button]:2xl:size-7 [&_.label-inside]:pt-0.5 [&_button]:me-1.5', 
 		wrapperClass = '',
 		labelDefaultClass = '',
 		labelClass = '',
@@ -34,28 +34,26 @@
 		value = value.filter((i) => i !== code);
 		onChange();
 	}
-
 </script>
 
 <div class={`${wrapperDefaultClass} ${wrapperClass}`}>
 	{#each references as reference (reference.value)}
 		{@const checked = value.includes(reference.value)}
-			<label class={`${labelDefaultClass} ${labelClass}`}>
-				<Checkbox
-					{checked}
-					value={reference.value}
-					onCheckedChange={(v) => {
-						if (v) {
-							addItem(reference.value);
-						} else {
-							removeItem(reference.value);
-						}
-					}}
-					class="me-2"
-				/>
-				<div>
-					{reference.label}
-				</div>
-			</label>
+		<label class={`${labelDefaultClass} ${labelClass}`}>
+			<Checkbox
+				{checked}
+				value={reference.value}
+				onCheckedChange={(v) => {
+					if (v) {
+						addItem(reference.value);
+					} else {
+						removeItem(reference.value);
+					}
+				}}
+			/>
+			<div class="label-inside">
+				{reference.label}
+			</div>
+		</label>
 	{/each}
 </div>

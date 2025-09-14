@@ -17,10 +17,10 @@
 	}
 </script>
 
-<div class="mb-2 text-sm xl:text-base font-semibold">
+<div class="text-sm xl:text-base font-semibold">
 	Two Columns
 </div>
-<Separator class="my-5" />
+<Separator class="my-4 xl:my-5" />
 <Entry />
-<Separator class="my-5" />
+<Separator class="my-4 xl:my-5" />
 <PageNavCanSub onCancel={cancel} onSubmit={submit} />

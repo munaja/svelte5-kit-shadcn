@@ -1,4 +1,5 @@
-import Root from './checkbox.svelte';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import Root from './radio-group.svelte';
 
 export {
 	Root,
