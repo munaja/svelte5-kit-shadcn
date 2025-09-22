@@ -35,7 +35,7 @@
 		</DE.Field>
 	</DE.Cell>
 	<DE.Cell>
-		<DE.Label position="dynamic">Radio</DE.Label>
+		<DE.Label position="dynamic">Just Input</DE.Label>
 		<DE.Field>
 			<Input.Root />
 		</DE.Field>

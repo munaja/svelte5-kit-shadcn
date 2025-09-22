@@ -18,7 +18,7 @@
 	let {
 		value = $bindable([]),
 		references = $bindable([]),
-		wrapperDefaultClass = 'pt-1.5 2xl:pt-1 pb-2 gap-4 xl:gap-5 [&_label]:block [&_label]:flex [&_button]:size-5 [&_button]:xl:size-6 [&_button]:2xl:size-7 [&_.label-inside]:pt-0.5 [&_button]:me-1.5', 
+		wrapperDefaultClass = 'py-1.5 2xl:pt-1 gap-4 xl:gap-5 [&_label]:block [&_label]:flex [&_button]:size-5 [&_button]:xl:size-6 [&_button]:2xl:size-7 [&_button]:me-1.5 [&_.label-inside]:pt-0.5', 
 		wrapperClass = '',
 		labelDefaultClass = '',
 		labelClass = '',

@@ -20,7 +20,7 @@
 		optionIdPrefix = 'option-',
 		value = $bindable(),
 		references = $bindable([]),
-		wrapperDefaultClass = 'pt-1.5 2xl:pt-1 pb-2 gap-4 xl:gap-5 [&_label]:block [&_label]:flex [&_button]:size-5 [&_button]:xl:size-6 [&_button]:2xl:size-7',
+		wrapperDefaultClass = 'py-1.5 2xl:pt-1 gap-4 xl:gap-5 [&_label]:block [&_label]:flex [&_button]:size-5 [&_button]:xl:size-6 [&_button]:2xl:size-7 [&_.label-inside]:pt-0.5',
 		wrapperClass = '',
 		labelDefaultClass = '',
 		labelClass = '',
@@ -32,7 +32,9 @@
 	{#each references as reference (reference.value)}
 		<label class={`${labelDefaultClass} ${labelClass}`}>
 			<RadioGroup.Item value={reference.value} id={`${optionIdPrefix}${reference.value}`} class="me-1.5" />
-			{reference.label}
+			<div class="label-inside">
+				{reference.label}
+			</div>
 		</label>
 	{/each}
 </RadioGroup.Root>
